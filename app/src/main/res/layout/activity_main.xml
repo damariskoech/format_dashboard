@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:id="@+id/bankcardId"
@@ -54,8 +54,8 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -93,7 +93,7 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 
     <LinearLayout
@@ -103,7 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -118,7 +118,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/green"
-                    android:src="@drawable/ic_control_point_black_24dp"
+                    android:src="@drawable/ic_control_point_foreground"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,9 +140,9 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
@@ -184,7 +184,7 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 
     <LinearLayout
@@ -194,7 +194,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="340dp"
@@ -212,12 +212,13 @@
                     android:background="@color/purple"
                     android:src="@drawable/ic_attach_money_foreground"
                     android:padding="10dp"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:layout_MarginTop="10dp"
-                    android:text="Add"/>
+                    android:layout_marginTop="10dp"
+                    android:text="Banking" />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -232,7 +233,7 @@
                     android:textColor="@android:color/darker_gray"/>
 
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>
