@@ -31,7 +31,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@color/purple"
+                    android:background="@drawable/attach_money"
                     android:src="@drawable/ic_attach_money_foreground"
                     android:padding="10dp"/>
                 <TextView
@@ -70,7 +70,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@color/colorAccent"
+                    android:background="@drawable/lightbulb_outline"
                     android:src="@drawable/ic_lightbulb_outline_foreground"
                     android:padding="10dp"/>
                 <TextView
@@ -117,7 +117,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@color/green"
+                    android:background="@drawable/control_point"
                     android:src="@drawable/ic_control_point_foreground"
                     android:padding="10dp"/>
                 <TextView
@@ -158,7 +158,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@color/yellow"
+                    android:background="@drawable/attach_file"
                     android:padding="10dp"
                     android:src="@drawable/ic_attach_file_foreground" />
 
@@ -209,7 +209,7 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@color/purple"
+                    android:background="@drawable/attach_money"
                     android:src="@drawable/ic_attach_money_foreground"
                     android:padding="10dp"/>
 
